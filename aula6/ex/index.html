@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios aula 13</title>
+</head>
+<body>
+    <h1 align="center">TESTE COM O SEU NOME!</h1>
+    <h2 align="center">Veja as informações abaixo: </h2>
+    <script>
+        const nome= prompt("Digite o seu nome completo:");
+        document.body.innerHTML += `Seu nome é: <strong>${nome}<strong><br />`;
+        document.body.innerHTML += `Seu nome tem <strong>${nome.length}<strong> letras <br />`;
+        document.body.innerHTML += `A segunda letra do seu nome é: <strong>${nome[1]}<strong><br />`;
+        document.body.innerHTML += `As últimas 6 letras do seu nome é: <strong>${nome.slice(-6)}<strong><br />`;
+        document.body.innerHTML += `Qual o índice da primeira letra R no seu nome? <strong>${nome.indexOf('r')}<strong><br />`;
+        document.body.innerHTML += `Qual o índice da última letra R no seu nome? <strong>${nome.lastIndexOf('r')}<strong><br />`;
+        document.body.innerHTML += `As palavras do seu nome é: <strong>${nome.split(' ')}<strong><br />`;
+        document.body.innerHTML += `Seu nome com letras maiúsculas: <strong>${nome.toUpperCase()}<strong><br />`;
+        document.body.innerHTML += `Seu nome com letras minúsculas: <strong>${nome.toLowerCase()}<strong><br />`;
+        console.log(Nome);
+    </script>
+</body>
+</html>
